@@ -3,6 +3,7 @@
 body{
 	padding: 0px;
 	margin: 0px;
+	scroll-behavior: smooth;
 }
 
 li{
@@ -13,11 +14,95 @@ a{
 	text-decoration:none;
 }
 
+@media (max-width: 768px){
+	/* .nav-link{
+		background:rgb(185, 241, 241);
+		
+	} */
+
+	.navbar-nav{
+		text-align:center;
+	}
+}
+
+.banner-bgc{
+	background-color:#ADB5BD;
+}
+.banner-img{
+	width: 1100px;
+	height: auto;
+}
+.banner-padding{
+	padding:5% 5%;
+}
+
 .font-style{
     font-family: 'Otomanopee One', sans-serif;
 }
+.font-style1{
+    font-family: 'Zen Loop', cursive;
+}
 
-/* about-section */
-.box-shadow{
-    
+/* features-section */
+
+#features{
+	background-color:azure;
+}
+.features-size{
+	width: 20em;
+}
+
+.features-col{
+	transition:.2s;
+}
+
+.features-col:hover{
+	transform: scale(1.1);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* work-section */
+.work-col{
+	transition:.2s;
+}
+.work-col:hover{
+	transform: scale(1.1);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* feedback */
+#feedback{
+	background-color: #ADB5BD;
+}
+
+.carousel-image{
+	width: 120px;
+	height: auto;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+	font-style: italic;
+	font-size:1.2rem;
+}
+
+/* contact */
+.boxshadow{
+	
+}
+
+
+/* footer */
+.background{
+	background-color: rgb(3, 0, 0);
+	color: #fff;
+}
+
+
+.footer-a{
+	color: #fff;
+	font-size:30px;
+}
+.footer-a:hover{
+	color: #5C636A;
 }
