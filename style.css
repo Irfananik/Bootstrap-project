@@ -23,6 +23,12 @@ a{
 	.navbar-nav{
 		text-align:center;
 	}
+
+	/* about */
+	/* .tablestyle{
+		position: absolute;
+		right: 10px;
+	} */
 }
 
 .banner-bgc{
@@ -41,6 +47,11 @@ a{
 }
 .font-style1{
     font-family: 'Zen Loop', cursive;
+}
+
+/* about */
+.tablestyle{
+
 }
 
 /* features-section */
